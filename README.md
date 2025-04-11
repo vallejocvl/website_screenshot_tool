@@ -20,12 +20,14 @@ To use this script, you will need a CSV file containing the URLs you want to scr
 - Then, convert the XML file to CSV using [Data.Page](https://data.page/xml/csv).  
 - Save the CSV file as `sitemap.csv` in the `database` folder.  
 
-> 📌 The CSV file should have at least one column named `url__loc`, containing the URLs of your website.
+> The CSV file should have at least one column named `url__loc`, containing the URLs of your website.
 
 ### 2. Directory Structure
+'''
 ├── database
 │   └── sitemap.csv
 ├── screenshots
 ├── .gitignore
 ├── README.md
 └── web_screenshot_tool.py
+'''
