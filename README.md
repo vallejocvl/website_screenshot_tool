@@ -23,11 +23,12 @@ To use this script, you will need a CSV file containing the URLs you want to scr
 > The CSV file should have at least one column named `url__loc`, containing the URLs of your website.
 
 ### 2. Directory Structure
-'''
+
+```
 ├── database
 │   └── sitemap.csv
 ├── screenshots
 ├── .gitignore
 ├── README.md
 └── web_screenshot_tool.py
-'''
+```
